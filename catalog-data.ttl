@@ -1340,9 +1340,10 @@
   a schema:SoftwareLibrry, soar:SolidSDK ;
   schema:name "Shighl" .
 
-:Sleepy_BikePlatform
+:SleepyBikePlatform
   schema:description "'Couchsurfing' for bicycle travellers" ;
-  schema:name "Sleepy Bike" ;
+  schema:name "Sleepy Bike Platform" ;
+  doap:repository <https://github.com/OpenHospitalityNetwork/sleepy.bike> ;
   a schema:SoftwareApplication .
 
 :Social_linked_beer
@@ -3355,9 +3356,9 @@
   :Dokieli           a soar:PersonalProductivityApp ; schema:keywords "personal productivity","editors","RDFa" .
   :SolidCalendar     a soar:PersonalProductivityApp ; schema:keywords "personal productivity","calendars" .
   :Solid_Calendar_1  a soar:PersonalProductivityApp ; schema:keywords "personal productivity","calendars" .
-  :Friend_Requests   a soar:PersonalProductivityApp ; schema:keywords "personal productivity","calendars" .
-  :Solid_Groups      a soar:PersonalProductivityApp ; schema:keywords "personal productivity","calendars" .
-  :Contacts          a soar:PersonalProductivityApp ; schema:keywords "personal productivity","calendars" .
+  :Friend_Requests   a soar:PersonalProductivityApp ; schema:keywords "personal productivity","contacts" .
+  :Solid_Groups      a soar:PersonalProductivityApp ; schema:keywords "personal productivity","contacts" .
+  :Contacts          a soar:PersonalProductivityApp ; schema:keywords "personal productivity","contacts" .
   :Pixolid           a soar:LeisureApp ; schema:keywords "leisure activities","movies" .
   :SolidFlix         a soar:LeisureApp ; schema:keywords "leisure activities","movies" .
   :MediaKraken       a soar:LeisureApp ; schema:keywords "leisure activities","movies" .

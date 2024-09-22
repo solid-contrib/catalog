@@ -1,3 +1,16 @@
+.footer {
+ position:absolute;
+ left:1rem;
+ bottom:1rem;
+}
+.footer * {
+ color:white !important;
+ font-size:110%;
+}
+.footer a {
+ color:yellow !important;
+}
+
 .sol-display .sol-links {
   margin-top:1rem;
 }
