@@ -154,7 +154,7 @@ schema:Event               rdfs:label "Events" .
   soar:PastEvent                  rdfs:subClassOf schema:Event; rdfs:label "Past Events" .
 soar:SpecializedPodService rdfs:label "Services for specific communities" .
 soar:PodServer             rdfs:label "Solid Server Software" .
-schema:SoftwareApplication rdfs:label "Applictions" .
+schema:SoftwareApplication rdfs:label "Applications" .
   soar:PersonalProductivityApp  rdfs:subClassOf schema:SoftwareApplication; rdfs:label "Personal Productivity" .
   soar:OrganizationalApp rdfs:subClassOf schema:SoftwareApplication; rdfs:label "Organizational Productivity" .
   soar:LeisureApp  rdfs:subClassOf schema:SoftwareApplication; rdfs:label "Leisure Activities" .
