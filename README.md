@@ -18,7 +18,7 @@ Because the model for the catalog is captured in the SHACL shape and subclass st
 * I have invented a number of classes in the yet to be written soar: (Solid Organizations and Resources) vocab, again, suggestions welcome if there are appropriate existing terms.
 * I intend to create shapes for the invididual types.  For example, people and organizations will use vcard and ontologies will use vann.
 
-Please [correct information about yourself and your projectss](./data-catalog.ttl).
+Please [correct information about yourself and your projectss](./catalog-data.ttl).
 Please [suggest changes to the shapes and terms](https://github.com/solid-contrib/catalog/issues).
 
 
