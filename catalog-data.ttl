@@ -852,7 +852,7 @@
 # COMPONENTS & FRAMEWORKS
 ###
 :Shighl_elements
-  schema:description "Webcoponents based on Shighl" ;
+  schema:description "Webcomponents based on Shighl" ;
   schema:name "Shighl elements" ;
   schema:keywords "web components","general purpose library" ;
   a soar:SoftwareLibrary, soar:SolidSDK .
@@ -1337,7 +1337,7 @@
   doap:programming_language "javascript" ;  
   schema:description "Lets to write simply HTML/JavaScript to interact with a Solid Pod Session, Profile, Inboxand Chat" ;
   schema:provider :David_Faveris ;
-  a schema:SoftwareLibrry, soar:SolidSDK ;
+  a schema:SoftwareLibrary, soar:SolidSDK ;
   schema:name "Shighl" .
 
 :SleepyBikePlatform
@@ -1602,7 +1602,7 @@
 
 :UofSouthhampton
   a schema:ResearchOrganization;
-  schema:name "University of Southhampton" .
+  schema:name "University of Southampton" .
 
 :UofLondon
   a schema:ResearchOrganization;
