@@ -1,5 +1,7 @@
 # Catalog of Solid Resources
 
+## NOTE This repository is archived and meant only for historical purposes.  All work on the Catalog of Solid Resources is now carried out at https://github.com/solid/catalog.
+
 The Catalog of Solid Resources is an RDF repository of the software, people, organizations, and other resources engaged in the Solid Project.  This is a work in progress and is missing many resoures and details of the resources listed but, is the most complete list I am aware of and, I believe, a good basis on which to build.  In addition to the RDF data itself, the current version uses [Solid Web Components](https://github.com/solidos/solid-web-components) to present a searchable UI of the data.
 
 Please [visit the Catalog](https://solidproject.solidcommunity.net/catalog/).
