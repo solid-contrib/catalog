@@ -1346,6 +1346,28 @@
   doap:repository <https://github.com/OpenHospitalityNetwork/sleepy.bike> ;
   a schema:SoftwareApplication .
 
+:TiredBike
+  a schema:SoftwareApplication ;
+  schema:name  "Tired Bike" ;
+  schema:keywords "housing", "transportation", "resource sharing", "hospitality exchange" ;
+  schema:provider :SolidCouch ;
+  doap:repository <https://github.com/solidcouch/tiredbike> ;
+  doap:service-endpoint <https://tired.bike> ;
+  schema:logo <https://community.tired.bike/logo.svg> ;
+  schema:description      """
+    A decentralized hospitality exchange community app for cyclists and other slow travellers.
+    Instance of SolidCouch.
+  """ .
+
+:SolidFolks
+  a schema:SoftwareApplication ;
+  schema:name  "Solid Folks" ;
+  schema:keywords "housing", "transportation", "resource sharing", "hospitality exchange" ;
+  schema:provider :SolidCouch ;
+  doap:repository <https://github.com/solidcouch/solidfolks> ;
+  doap:service-endpoint <https://folks.solidcouch.org> ;
+  schema:description "Instance of SolidCouch for people of Solid Project."@en .
+
 :Social_linked_beer
   schema:name "Social linked beer" ;
   a schema:SoftwareApplication ;
@@ -1673,6 +1695,14 @@
   a soar:OpenSourceProject ;
   schema:name "O-Team" .
 
+:SolidCouch
+  a soar:OpenSourceProject ;
+  schema:name "SolidCouch" ;
+  schema:description "A decentralized hospitality exchange software based on Solid Protocol." ;
+  schema:logo <https://raw.githubusercontent.com/solidcouch/branding/refs/heads/main/assets/solidcouch/logo.svg> ;
+  doap:repository <https://github.com/solidcouch> ;
+  doap:homepage <https://solidcouch.org> .
+
 :Imec
   a schema:ResearchOrganization ;
   schema:name "Imec" .
@@ -1919,6 +1949,9 @@
 :Michal
   :forumid "@mrkvon" ;
   a schema:Person ;
+  solid:webid <https://id.mrkvon.org> ;
+  doap:repository <https://github.com/mrkvon> ;
+  doap:homepage <https://mrkvon.org> ;
   schema:name "Michal" .
 
 :Michiel_de_Jong
